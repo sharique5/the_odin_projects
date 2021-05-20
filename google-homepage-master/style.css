@@ -1,0 +1,137 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    width: 99vw;
+    height: 98vh;
+}
+
+.header {
+    display: flex;
+    height: 10%;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    height: 80%;
+    width: 100%;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40%;
+    height: 8%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 2px solid #dfe1e5;
+    margin-top: 2%;
+}
+
+.searchbar input {
+    height: 75%;
+    width: 90%;
+    border: none;
+}
+
+.searchaction {
+    margin-top: 2%;
+}
+
+.searchaction button {
+    cursor: pointer;
+    color: #212529;
+    background-color: #f2f2f2;
+    border-color: #f2f2f2;
+
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.searchaction button:hover {
+    color: #212529;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
+    text-decoration: none;
+}
+
+.content span {
+    margin-top: 2%;
+}
+
+.footer {
+    background-color: wheat;
+    height: 10%;
+} 
+
+.footer .row {
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    background-color: #f2f2f2;
+}
+
+.header .row a,
+.footer .row span,
+.footer .row a {
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.header .row {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header .row button {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+
+.search_icon,
+.content span a {
+    margin: 5px;
+}
