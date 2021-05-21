@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Library</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<header>
+       <h1>Library</h1>
+    </header>
+    <main>
+        <section class="input-section">
+        	<div class="book-input">
+        		<div class="input-field">
+	        		<span>Title</span>
+	        		<input type="text" placeholder="Book Title" id="book-title">
+	        		<span class="error" id="title-error"></span>
+	        	</div>
+	        	<div class="input-field">
+	        		<span>Author</span>
+	        		<input type="text" placeholder="Book Author" id="book-author">
+	        		<span class="error" id="author-error"></span>
+	        	</div>
+	        	<div class="input-field">
+	        		<span>Pages</span>
+	        		<input type="text" placeholder="Total no of pages" id="book-pages">
+	        		<span class="error" id="page-error"></span>
+	        	</div>
+	        	<div class="input-field checkbox-container circular-container">
+					<div>Read?</div>
+				    <label class="checkbox-label">
+			            <input type="checkbox" id="book-read">
+			            <span class="checkbox-custom circular"></span>
+			        </label>
+	        	</div>
+	        	<div class="input-field">
+	        		<button type="button" class="button" id="add-book">Add Book</button>
+	        	</div>
+        	</div>
+        </section>
+        <section class="book-section">
+        	<div class="books">
+        		<!-- <div class="book-card">
+				  <h1>Tailored Jeans Tailored Jeans</h1>
+				  <span>By</span> 
+				  <p class="author">Tailored Jeans</p>
+				  <p>with 100 pages</p>
+				  <button>Mark as Read</button>
+				  <button class="delete-button">Delete Book</button>
+				</div> -->
+				<div id="no-book">
+					Empty Library, please add a book
+				</div>
+        	</div>
+        </section>
+        <div id="snackbar"></div>
+    </main>
+	<script src="script.js" async defer></script>
+</body>
+</html>
