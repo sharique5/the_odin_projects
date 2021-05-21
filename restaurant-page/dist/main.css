@@ -1,0 +1,39 @@
+body {
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+	padding: 0 0.5em;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.current {
+	font-weight: bold;
+}
+
+#home {
+	background: no-repeat center/100% url('./food.jpg');
+	height: 80vh;
+	padding-top: 30vh;
+	box-sizing: border-box;
+	color: #ffffff;
+}
+
+#menu {
+	background: no-repeat center/100% url('./menu.jpg');
+	height: 80vh;
+	padding-top: 30vh;
+	box-sizing: border-box;
+}
